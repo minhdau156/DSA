@@ -1,0 +1,51 @@
+// Đặt tên biến sao cho phù hợp và mạch lạc tránh dài dòng
+
+**Đặt tên biến cho kiểu số nguyên (INTEGER)
+-Thường dùng để đếm số lượng của một thứ gì đó
+--Ex : numberOfSomething, somethingCount...
+--Nếu đơn vị của biến không rõ ràng thì ta nên mô tả một chút đơn vị của biến
+
+**Đặt tên cho các kiểu số thập phân (FLOAT)
+-DÙng cho một số giá trị đo lường không nên được làm tròn ( như là giá cả , chiều cao, cân nặng)
+--Ex : amountOfSomething, somethingAmount,...
+--Nếu đơn vị không rõ ràng thì ta nên thêm mô tả vào phía sau
+
+**Đặt tên cho kiểu dữ liệu đúng sai (BOOLEAN)
+-Là câu trả lời cho câu dạng đúng sai
+--Ex : isSomething, hasSomething, doesSomething, didSomething, shouldDoSomething, willDoSomething
+
+**Đặt tên cho kiểu dữ liệu chuỗi (STRING)
+-Cực kỳ phổ biến, kể cả dối với các thực thể thực tế
+--Ex : someValueString, someValueAsString,....
+
+**Mảng, danh sách, bộ dữ liệu (Array, Collection, Set)
+-Luôn dùng danh từ số nhiều , ex : customers, errors, tasks,...
+
+**Biến mapping (hay key/value)
+-Sử dụng trong việc get giá trị từ một từ khóa cụ thể
+--THường đặt theo nguyên tắc keytoValueMap
+
+**Đặt tên theo cặp (pair) và bộ (tuple)
+-Đặt tên theo nguyên tắc variable1AndVariable2
+--Ex : heightAndWidth, heightWidthAndDepth
+
+**Đặt tên cho các đối tượng (Object)
+-Các danh từ với ký tự đầu tiên được viết hoa
+--Ex : Person, Account, User, Order, Product
+--Tên biến cũng cần liên kết với tên class, có thể mô tả tính chất biến bằng một tính từ đằng trước, 
+-- Điểm mấu chốt là phải giữ tên class cho tên biến ở cuối cùng của tên đối tượng
+
+**Đặt tên cho các tham số của function
+Phần này không khác gì so với các phần trên, nhưng bạn có thể thêm tiền tố "_" vào đằng trước của biến trong một số trường hợp
+
+**Đặt tên hằng số (Constant)
+-Các hằng số là một trường hợp đặc biệt,
+-Luôn đặt tên theo chuẩn snake_case với toàn bộ các ký tự viết hoa
+
+****CÁC QUY TẮC CHUNG
+-Tránh viết tên biến tắt một cách tối nghĩa
+--Cố gắng tránh viết tắt hết sức có thể 
+-Tránh những tên biến quá ngắn hoặc vô nghĩa
+--Tên quá ngắn hầu nư không thực sự chỉ rõ ý nghĩa của chúng. 
+--Không sử dụng biến $i hay $k, thay vào đó dùng $postIndex hoặc $postKey
+--Hãy mô tả rõ ràng chứ đừng đánh đố người khác
